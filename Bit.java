@@ -1,8 +1,20 @@
+import java.util.function.BinaryOperator;
+
 public class Bit {
+		private short bin;
+	
+	public void setBit(boolean b) {
+			if(b){
+				bin=1;
+			} else{
+				bin=0;
+			}
+		
+	}
 
-	public void setBit() {}
-
-	public void getBit() {}
+	public short getBit() {
+		return bin;
+	}
 
 		
 }

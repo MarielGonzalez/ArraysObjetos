@@ -1,11 +1,16 @@
 public class NumeroBinario {
 	private Bit[] arrayBit;
 
-	public NumeroBinario() 	{}
+	public NumeroBinario(Bit[] arr) 	{}
+		
 
-	private void setBit() {}
+	
+	private void setArrayBit() {
+		
+	}
+	
 
-	public void setBit(boolean b , int num) {}
+	public void setArrayBit(boolean b , int num) {}
 
 	public Bit[] getNumeroBinario() {
 	return arrayBit;
